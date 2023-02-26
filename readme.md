@@ -2,13 +2,13 @@
 
 ### Usage
 
-1- Install Docker and docker-compose
+1- Install Docker and docker-compose  
 2- Clone this repository  
 3- Run `docker build -t aosp-build-env:a13 .`  
-4- create `docker-compose.yml` file and add this code:
-(Dont forget to change the volumes path and variables according to your needs)
+4- create `docker-compose.yml` file and add this code:  
 
-NOTE: If you dont wanna sync repo while building image, open dockerfile and disable line 42,43
+NOTE: If you dont wanna sync repo while building image, open dockerfile and disable line 42,43.
+NOTE-2: Dont forget to change the volumes path and variables according to your needs.
 
 ```docker
 version: '3'
