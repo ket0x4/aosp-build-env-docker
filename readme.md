@@ -1,6 +1,6 @@
 # Docker image for building Android Custom ROMs
 
-## Installation
+### Usage
 
 1- Install Docker and docker-compose
 2- Clone this repository  
